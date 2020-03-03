@@ -3,7 +3,7 @@ package rectangleproject;
 /******************************************************************************
  * RectangleProject.java 
  * Programmer: @author jcboyd
- * Version: 2.1
+ * Version: 2.2
  * Course: SDEV 2210
  *
  * This program calculates the perimeter and area of a rectangle based on 
@@ -13,14 +13,14 @@ package rectangleproject;
 public class RectangleProject {
 
     public static void main(String[] args) {
-        String type = "rectangle";
+        String type = "rectangle"; //default value for userInput
         System.out.println("Ch 6: Rectangle Project by JC Boyd\n");
-        Rectangle userInput = new Rectangle();
+        Rectangle userInput = new Rectangle(); //new instance of Rectangle class
         userInput.setLength();
         userInput.setWidth();
-        if (userInput.isSquare())
+        if (userInput.isSquare()) 
         {
-            type = "square";
+            type = "square"; //change default only if square
         } //end if     
         System.out.printf("This paper is a %s: %d x %d\n", type, 
                 userInput.getLength(), userInput.getWidth());

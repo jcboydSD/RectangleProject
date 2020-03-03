@@ -38,8 +38,10 @@ public class Rectangle {
     
     public void printRectangleData()
     {
-        System.out.println("Perimeter: " + ((2 * this.length) + (2 * this.width)));
-        System.out.println("Area: " + (this.length * this.width));
+        int perimeter = (2 * this.length) + (2 * this.width);
+        int area = this.length * this.width;
+        System.out.printf("Perimeter: %d\n", perimeter);
+        System.out.printf("Area: %d\n", area);
     }
     
 } //end class Rectangle
