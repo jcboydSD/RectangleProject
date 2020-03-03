@@ -3,7 +3,7 @@ package rectangleproject;
 /******************************************************************************
  * RectangleProject.java 
  * Programmer: @author jcboyd
- * Version: 2.0
+ * Version: 2.1
  * Course: SDEV 2210
  *
  * This program calculates the perimeter and area of a rectangle based on 
